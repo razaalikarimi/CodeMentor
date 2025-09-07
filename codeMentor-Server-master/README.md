@@ -112,9 +112,3 @@ This is the backend server for the **E-Learning Platform** project, built with *
 
   ```bash
   npm run dev
-  ```
-
-ls.
-
-
----
