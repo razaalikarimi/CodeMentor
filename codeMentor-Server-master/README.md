@@ -27,11 +27,6 @@ This is the backend server for the **E-Learning Platform** project, built with *
 - **Razorpay** - Payment gateway integration for courses.
 - **UUID** - Generation of unique identifiers.
 
-## Frontend
-
-The frontend of the E-Learning Platform is live and can be accessed at:
-
-- [E-Learning Platform Frontend](https://code-mentor-frontenddd.vercel.app/)
 
 ## Installation
 
@@ -45,7 +40,7 @@ The frontend of the E-Learning Platform is live and can be accessed at:
 1. Clone the repository:
 
    ```bash
-   git clone https://github.com//Yusuf-Hussain25/e-learning-server.git
+   https://github.com/razaalikarimi/CodeMentor/tree/main/codeMentor-Server-master
    cd e-learning-server
    ```
 
@@ -119,9 +114,7 @@ The frontend of the E-Learning Platform is live and can be accessed at:
   npm run dev
   ```
 
-## License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+ls.
 
 
 ---
