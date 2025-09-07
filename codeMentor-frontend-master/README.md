@@ -4,8 +4,6 @@
 
 # E-Learning Platform Frontend
 
-**Live Demo**: [E-Learning Platform Frontend](https://code-mentor-frontenddd.vercel.app/)
-
 This is the frontend of the **E-Learning Platform** project, built using **React**, **Vite**, and various modern libraries to provide a smooth user experience. It includes user registration, login, course browsing, and payment functionality, integrated with the backend.
 
 ## Features
@@ -38,7 +36,7 @@ This is the frontend of the **E-Learning Platform** project, built using **React
 1. Clone the repository:
 
    ```bash
-   git clone https://github.com/Yusuf-Hussain25/e-learning-frontend.git
+   https://github.com/razaalikarimi/CodeMentor/tree/main/codeMentor-frontend-master
    cd e-learning-frontend
    ```
 
@@ -69,12 +67,6 @@ This is the frontend of the **E-Learning Platform** project, built using **React
    ```bash
    npm run preview
    ```
-
-## Deployment
-
-The frontend is deployed and can be accessed at:
-
-- [E-Learning Platform Frontend](https://code-mentor-frontenddd.vercel.app/)
 
 ## Scripts
 
