@@ -1,0 +1,183 @@
+/* General Styles */
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: #f7f9fc; /* Very light blue for the background */
+}
+
+/* Button Styles */
+.common-btn {
+  padding: 12px 24px;
+  font-size: 16px;
+  background-color: #4caf50; /* Green color for educational feel */
+  color: white;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: all 0.3s ease; /* Smooth transition for hover effect */
+}
+
+.common-btn:hover {
+  background-color: #45a049; /* Darker green on hover */
+  transform: translateY(-2px); /* Slight lift effect */
+}
+
+/* Home Section */
+.home {
+  background: #ffffff; /* White background for clean look */
+  color: #333; /* Dark text for contrast */
+  padding: 100px 20px;
+  text-align: center;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* Soft shadow */
+}
+
+.home-content {
+  max-width: 800px;
+  margin: 0 auto;
+  animation: fadeInUp 1s ease;
+}
+
+.home-content h1 {
+  font-size: 48px;
+  font-weight: bold;
+  margin-bottom: 20px;
+  color: #2c3e50; /* Dark blue for headings */
+  animation: fadeIn 2s ease-in;
+}
+
+.home-content p {
+  font-size: 20px;
+  color: #7f8c8d; /* Muted gray for text */
+  margin-bottom: 40px;
+  animation: fadeIn 2s ease-in;
+}
+
+.home-content button {
+  padding: 12px 24px;
+  background-color: #4caf50; /* Green for button */
+  border-radius: 8px;
+  font-size: 16px;
+  transition: background-color 0.3s ease;
+}
+
+.home-content button:hover {
+  background-color: #45a049; /* Darker green on hover */
+}
+
+/* Why Choose Us Section */
+.features {
+  text-align: center;
+  padding: 60px 20px;
+  background-color: #f1f5f8; /* Very light grey background */
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  margin-top: 60px;
+  border-radius: 8px; /* Rounded corners */
+}
+
+.features h2 {
+  font-size: 32px;
+  margin-bottom: 30px;
+  color: #2c3e50; /* Dark blue heading */
+  font-weight: bold;
+}
+
+.feature-boxes {
+  display: flex;
+  justify-content: space-around;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.feature-box {
+  background-color: #ffffff;
+  padding: 30px;
+  border-radius: 12px;
+  width: 30%;
+  text-align: center;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.feature-box:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.2);
+}
+
+.feature-box h3 {
+  font-size: 22px;
+  margin-bottom: 15px;
+  color: #16a085; /* Soft teal for feature box headers */
+}
+
+.feature-box p {
+  font-size: 16px;
+  color: #7f8c8d; /* Muted gray for text */
+}
+
+/* Animations */
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    transform: translateY(40px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/* Media Queries for Responsiveness */
+@media (max-width: 768px) {
+  .home-content h1 {
+    font-size: 32px;
+  }
+
+  .home-content p {
+    font-size: 16px;
+  }
+
+  .common-btn {
+    font-size: 14px;
+    padding: 10px 20px;
+  }
+
+  .feature-boxes {
+    flex-direction: column;
+    gap: 30px;
+  }
+
+  .feature-box {
+    width: 80%;
+    margin: 0 auto;
+  }
+
+  .features {
+    padding: 40px 20px;
+  }
+}
+
+@media (max-width: 480px) {
+  .home-content h1 {
+    font-size: 24px;
+  }
+
+  .home-content p {
+    font-size: 14px;
+  }
+
+  .common-btn {
+    font-size: 14px;
+    padding: 10px 18px;
+  }
+}

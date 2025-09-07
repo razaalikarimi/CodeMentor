@@ -1,0 +1,127 @@
+.footer {
+  background: linear-gradient(135deg, #586679, #1a73e8); /* Blue gradient for depth */
+  color: white;
+  padding: 40px 0;
+  text-align: center;
+}
+
+.footer-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+  gap: 30px;
+}
+
+/* Brand styling */
+.footer-brand h3 {
+  font-size: 26px;
+  font-weight: bold;
+  margin-bottom: 10px;
+  color: #ffffff;
+}
+
+.footer-brand p {
+  font-size: 15px;
+  margin: 0;
+  color: #e0e0e0;
+}
+
+.footer-brand a {
+  text-decoration: none;
+  color: #ffb6b6;
+  font-weight: 500;
+  transition: color 0.4s ease, transform 0.3s ease;
+}
+
+.footer-brand a:hover {
+  color: #ffffff;
+  transform: scale(1.05);
+}
+
+/* Social Media Section */
+.footer-social h4 {
+  font-size: 22px;
+  margin-bottom: 10px;
+  color: #ffffff;
+}
+
+.social-links {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 15px;
+  margin-top: 10px;
+}
+
+.social-links a {
+  color: white;
+  font-size: 28px;
+  transition: transform 0.4s ease, color 0.4s ease, box-shadow 0.3s ease;
+}
+
+.social-links a:hover {
+  transform: translateY(-6px) scale(1.1); /* Subtle hover effect */
+  color: #ffb6b6;
+  box-shadow: 0px 4px 10px rgba(255, 182, 182, 0.5); /* Soft shadow */
+}
+
+/* Navigation Links */
+.footer-navigation h4 {
+  font-size: 22px;
+  margin-bottom: 10px;
+  color: white;
+}
+
+.footer-navigation ul {
+  list-style: none;
+  padding: 0;
+}
+
+.footer-navigation li {
+  margin-bottom: 8px;
+}
+
+.footer-navigation a {
+  color: #ffffff;
+  text-decoration: none;
+  font-size: 16px;
+  transition: color 0.4s ease, padding-left 0.3s ease;
+}
+
+.footer-navigation a:hover {
+  color: #ffb6b6;
+  padding-left: 8px; /* Subtle slide effect */
+}
+
+/* Responsive design for mobile */
+@media (max-width: 768px) {
+  .footer-container {
+      flex-direction: column;
+      align-items: flex-start;
+      text-align: left;
+  }
+
+  .footer-social,
+  .footer-navigation {
+      margin-top: 20px;
+  }
+}
+
+/* Divider line for a modern touch */
+.footer-divider {
+  width: 80%;
+  height: 1px;
+  background-color: #ffffff33;
+  margin: 20px auto;
+  opacity: 0.7;
+}
+
+/* Bottom copyright section */
+.footer-bottom {
+  font-size: 14px;
+  color: #e0e0e0;
+  margin-top: 20px;
+}
